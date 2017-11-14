@@ -8,7 +8,7 @@ $( document ).ready(function() {
 
       $('.quote').html(quote);
       $('.author').html(author);
-
+      $('.tweet').attr("href", "https://twitter.com/intent/tweet?text=" + quote + " " + author);
     });
   };
 
