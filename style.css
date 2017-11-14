@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,400i|Lato:300,400|Spectral+SC');
+
+body {
+  background: #565656;
+  text-align: center;
+  color: #f5eee9;
+}
+
+.author {
+  font-family: 'Lato';
+  font-style: italic;
+  font-size: 125%;
+}
+
+.title {
+  font-family: 'Spectral SC', serif;
+}
+
+.quote {
+  font-family: 'Arvo', serif;
+  letter-spacing: 2px;
+  font-size: 175%;
+}
+
+.quote-card {
+  margin: auto;
+  background: #9a9a9a;
+  width: 50%;
+  padding: 2rem;
+  box-shadow: 0px 0px 49px -4px rgba(0,0,0,0.75);
+  border-color: #f5eee9;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 0.5rem;
+  text-shadow: 4px 2px 5px rgba(150, 150, 150, 1);
+}
+
+.btn {
+	display: inline-block;
+	color: #666;
+	background-color: #eee;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+}
+
+	.btn:hover {
+		background-color: #e3e3e3;
+		border-color: rgba(0,0,0,0.5);
+	}
+	
+	.btn:active {
+		background-color: #CCC;
+    border-color: rgba(0,0,0,0.9);
+    outline: none;
+  }
+  
+  .btn:focus {
+    outline: none;
+	}
+
+
+.btn-blue {
+	background-color: #699DB6;
+	border-color: rgba(0,0,0,0.3);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	color: #FFF;
+}
+
+	.btn-blue:hover {
+		background-color: #4F87A2;
+		border-color: rgba(0,0,0,0.5);
+	}
+	
+	.btn-blue:active {
+		background-color: #3C677B;
+    border-color: rgba(0,0,0,0.9);
+    
+	}
