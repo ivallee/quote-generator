@@ -1,4 +1,6 @@
 $( document ).ready(function() {
+
+  var api = 'https://crossorigin.me/http://quotes.stormconsultancy.co.uk/random.json'
   
   function getQuote() {
     $.getJSON('http://quotes.stormconsultancy.co.uk/random.json', function( data ) {
@@ -19,9 +21,5 @@ $( document ).ready(function() {
     getQuote();
 
   });
-  
-  $('#tweet').on('click', function() {
-    console.log('twit!');
-  });
-  
+
 });
